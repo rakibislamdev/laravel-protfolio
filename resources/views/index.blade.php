@@ -10,26 +10,26 @@
     <!-- ======== Page title ============ -->
     <title>RAKIB - as a modern protfolio</title>
     <!-- ========== Favicon Icon ========== -->
-    <link rel="shortcut icon" href="assets/img/favicon.png">
+    <link rel="shortcut icon" href="{{ asset('assets/img/favicon.png') }}">
     <!-- ===========  All Stylesheet ================= -->
     <!--  Icon css plugins -->
-    <link rel="stylesheet" href="assets/css/icons.css">
+    <link rel="stylesheet" href="{{ asset('assets/css/icons.css') }}">
     <!--  animate css plugins -->
-    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="{{ asset('assets/css/animate.css') }}">
     <!--  magnific-popup css plugins -->
-    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="{{ asset('assets/css/magnific-popup.css') }}">
     <!--  owl carosuel css plugins -->
-    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="{{ asset('assets/css/owl.carousel.min.css') }}">
     <!-- metisMenu css file -->
-    <link rel="stylesheet" href="assets/css/metismenu.css">
+    <link rel="stylesheet" href="{{ asset('assets/css/metismenu.css') }}">
     <!-- progresscircle css file -->
-    <link rel="stylesheet" href="assets/css/progresscircle.css">
+    <link rel="stylesheet" href="{{ asset('assets/css/progresscircle.css') }}">
     <!--  owl theme css plugins -->
-    <link rel="stylesheet" href="assets/css/owl.theme.css">
+    <link rel="stylesheet" href="{{ asset('assets/css/owl.theme.css') }}">
     <!--  Bootstrap css plugins -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ asset('assets/css/bootstrap.min.css') }}">
     <!--  main style css file -->
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
     <!-- template main style css file -->
     <link rel="stylesheet" href="style.css">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -46,26 +46,26 @@
     {{-- <div id="preloader" class="preloader">
         <div class="animation-preloader">
             <div class="spinner"></div>
-                <div class="txt-loading">
-                    <span data-text-preloader="S" class="letters-loading">
-                        S
-                    </span>
-                    <span data-text-preloader="P" class="letters-loading">
-                        P
-                    </span>
-                    <span data-text-preloader="R" class="letters-loading">
-                        R
-                    </span>
-                    <span data-text-preloader="U" class="letters-loading">
-                        U
-                    </span>
-                    <span data-text-preloader="C" class="letters-loading">
-                        C
-                    </span>
-                    <span data-text-preloader="E" class="letters-loading">
-                        E
-                    </span>
-                </div>
+            <div class="txt-loading">
+                <span data-text-preloader="S" class="letters-loading">
+                    S
+                </span>
+                <span data-text-preloader="P" class="letters-loading">
+                    P
+                </span>
+                <span data-text-preloader="R" class="letters-loading">
+                    R
+                </span>
+                <span data-text-preloader="U" class="letters-loading">
+                    U
+                </span>
+                <span data-text-preloader="C" class="letters-loading">
+                    C
+                </span>
+                <span data-text-preloader="E" class="letters-loading">
+                    E
+                </span>
+            </div>
             <p class="text-center">Loading</p>
         </div>
         <div class="loader">
@@ -155,18 +155,27 @@
             <div class="row align-items-center">
                 <div class="col-lg-5 col-sm-12 text-center text-lg-left">
                     <div class="hero-content overflow-hidden">
-                        <span class="hello-tooltip wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".5s">Hi! There</span>
+                        <span class="hello-tooltip wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".5s">Hi!
+                            There</span>
                         <h1 class="wow fadeInLeft" data-wow-duration="1.3s" data-wow-delay=".9s">MD RAKIB</h1>
                         <div class="typed">
-                           <h3 class="wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay="1.3s">I'm a <span class="profession"></span></h3>
+                            <h3 class="wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay="1.3s">I'm a <span
+                                    class="profession"></span></h3>
                         </div>
-                        <p class="wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay="1.6s">I am a student studying Diploma in Computer Engineering. I love working on various technologies in addition to my studies. I love coding and programming. I am currently working on web development for the last 1 years. And in addition to freelancing.</p>
-                        <a href="#" class="theme-btn wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay="1.9s">+ Download CV</a>
+                        <p class="wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay="1.6s">I am a student studying
+                            Diploma in Computer Engineering. I love working on various technologies in addition to my
+                            studies. I love coding and programming. I am currently working on web development for the
+                            last 1 years. And in addition to freelancing.</p>
+                        <a href="#" class="theme-btn wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay="1.9s">+
+                            Download CV</a>
 
                         <div class="social-profile">
-                            <a href="https://www.facebook.com/rakibislm.dev" class="wow fadeInLeft" data-wow-duration="1.2s" data-wow-delay="2.2s"><i class="fal fa-plus"></i>facebook</a>
-                            <a href="https://twitter.com/rakibislamdev" class="wow fadeInLeft" data-wow-duration="1.2s" data-wow-delay="2.5s"><i class="fal fa-plus"></i>twitter</a>
-                            <a href="https://www.linkedin.com/in/rakibislamdev/" class="wow fadeInLeft" data-wow-duration="1.2s" data-wow-delay="2.7s"><i class="fal fa-plus"></i>linkedin</a>
+                            <a href="https://www.facebook.com/rakibislm.dev" class="wow fadeInLeft"
+                                data-wow-duration="1.2s" data-wow-delay="2.2s"><i class="fal fa-plus"></i>facebook</a>
+                            <a href="https://twitter.com/rakibislamdev" class="wow fadeInLeft" data-wow-duration="1.2s"
+                                data-wow-delay="2.5s"><i class="fal fa-plus"></i>twitter</a>
+                            <a href="https://www.linkedin.com/in/rakibislamdev/" class="wow fadeInLeft"
+                                data-wow-duration="1.2s" data-wow-delay="2.7s"><i class="fal fa-plus"></i>linkedin</a>
                         </div>
                     </div>
                 </div>
@@ -192,7 +201,7 @@
 
             <div class="row">
                 <div class="col-lg-5 col-12 wow fadeInLeft" data-wow-duration="1.2s" data-wow-delay=".1s">
-                        <div class="main-profile-img">
+                    <div class="main-profile-img">
                         <img src="assets/img/rakib-2.png" alt="profile image">
                         <span>+</span>
                         <div class="dots_animate"></div>
@@ -202,7 +211,9 @@
                     <div class="about-content">
                         <h1>Hello! I,m Md Rakib Web Designer and Web Developer.</h1>
                         <h3>Have 1 Years Experienced</h3>
-                        <p>I am Md Rakib. I am a student studying Diploma in Computer Engineering. I love working on various technologies in addition to my studies. I love coding and programming. I am currently working on web development for the last 2 years.</p>
+                        <p>I am Md Rakib. I am a student studying Diploma in Computer Engineering. I love working on
+                            various technologies in addition to my studies. I love coding and programming. I am
+                            currently working on web development for the last 2 years.</p>
 
                         <div class="row mt-4">
                             <div class="col-sm-6 col-12">
@@ -249,7 +260,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="single-service service-1 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s">
                         <div class="icon">
-                           <img src="assets/img/icons/creativity.png" alt="">
+                            <img src="assets/img/icons/creativity.png" alt="">
                         </div>
                         <h3>Web Design</h3>
                         <p>Maborisum ipsum dosea ilelite consec Maborisum iesumdolor anim id est laborum</p>
@@ -258,7 +269,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="single-service service-1 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
                         <div class="icon">
-                           <img src="assets/img/icons/code.png" alt="">
+                            <img src="assets/img/icons/code.png" alt="">
                         </div>
                         <h3>Wed Development</h3>
                         <p>Maborisum ipsum dosea ilelite consec Maborisum iesumdolor anim id est laborum</p>
@@ -275,198 +286,215 @@
                 </div> <!-- /.single-service -->
             </div>
             <div class="contact-promo text-center wow fadeInUp" data-wow-duration="1s" data-wow-delay=".9s">
-                Have any Work? Fell Free to -  <a href="#contact">Contact Me</a>
+                Have any Work? Fell Free to - <a href="#contact">Contact Me</a>
             </div>
         </div>
     </section>
 
     <!-- resume section -->
     <section class="skills-experiance-resume section-padding" id="resume">
-      <div class="container">
-        <div class="row">
-           <div class="col-12 text-center col-lg-10 offset-lg-1">
-               <div class="section-title-one">
-                   <span>My resume</span>
-                   <h2>High Skilled Provide High Quality </h2>
-               </div>
-           </div>
-        </div>
-
-        <div class="row">
-           <div class="col-lg-7 col-12">
-                <div class="resume-timeline-wraper mt-5">
-                    <div class="row">
-
-                        <div class="col-sm-3">
-                           <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-                              <a class="nav-link active" id="v-pills-edu-tab" data-toggle="pill" href="#v-pills-edu" role="tab" aria-controls="v-pills-edu" aria-selected="true">Education</a>
-                              <a class="nav-link" id="v-pills-job-tab" data-toggle="pill" href="#v-pills-job" role="tab" aria-controls="v-pills-job" aria-selected="false">Experience</a>
-                           </div>
-                        </div>
-
-                        <div class="col-sm-9">
-                           <div class="tab-content" id="v-pills-tabContent">
-                              <div class="tab-pane fade show active" id="v-pills-edu" role="tabpanel" aria-labelledby="v-pills-edu-tab">
-                                <div class="single-resume-item">
-                                    <div class="year">
-                                        <span>2014-2015</span>
-                                    </div>
-                                    <h3>Junior School Certificate</h3>
-                                    <p>I have completed my Junior School Certificate examination from Bagdhani High School. I got a GPA of 4.89 out of 5.</p>
-                                </div>
-                                  <div class="single-resume-item">
-                                      <div class="year">
-                                          <span>2015-2017</span>
-                                      </div>
-                                      <h3>Secondary School Certificate</h3>
-                                      <p>I have completed my Secondary School Certificate examination from Bagdhani High School. I got a GPA of 4.45 out of 5.</p>
-                                  </div>
-                                  <div class="single-resume-item">
-                                      <div class="year">
-                                          <span>2017-2022</span>
-                                      </div>
-                                      <h3>Diploma in Computer Engineering</h3>
-                                      <p>I have completed my Diploma in Computer Engineering course from Rajshahi Polytechnic Institute. I got a CGPA of 3.45 out of 4.</p>
-                                  </div>
-                              </div>
-
-                              <div class="tab-pane fade" id="v-pills-job" role="tabpanel" aria-labelledby="v-pills-job-tab">
-                                <div class="single-resume-item">
-                                    <div class="year">
-                                        <span>2022-present</span>
-                                    </div>
-                                    <h3>Web Developer Internship</h3>
-                                    <p>I have completed in Web Developer Internship at BdTask Limited.<p>
-                                </div>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center col-lg-10 offset-lg-1">
+                    <div class="section-title-one">
+                        <span>My resume</span>
+                        <h2>High Skilled Provide High Quality </h2>
+                    </div>
                 </div>
-           </div>
-           <div class="col-lg-5 col-12">
-              <div class="programming-skill mt-5">
-                 <h3>Coding Skills</h3>
+            </div>
 
-                 <div class="single-progress-bar">
-                  <p>HTML & CSS</p>
-                   <div class="progress-bar barfiller" id='bar1'>
-                     <div class="tipWrap wow fadeInLeft" data-wow-duration="2s" data-wow-delay=".2s">
-                        <span class="tip">90%</span>
-                     </div>
-                     <span class="fill wow fadeInLeft" data-wow-duration="2s" data-wow-delay=".2s" data-percentage="90"></span>
-                   </div>
-                 </div>
+            <div class="row">
+                <div class="col-lg-7 col-12">
+                    <div class="resume-timeline-wraper mt-5">
+                        <div class="row">
 
-                 <div class="single-progress-bar">
-                  <p>JavaScript & Jquery</p>
-                   <div class="barfiller progress-bar" id='bar2'>
-                     <div class="tipWrap wow fadeInLeft" data-wow-duration="2s" data-wow-delay=".4s">
-                        <span class="tip">70%</span>
-                     </div>
-                     <span class="fill wow fadeInLeft" data-wow-duration="2s" data-wow-delay=".4s" data-percentage="70"></span>
-                   </div>
-                 </div>
+                            <div class="col-sm-3">
+                                <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist"
+                                    aria-orientation="vertical">
+                                    <a class="nav-link active" id="v-pills-edu-tab" data-toggle="pill"
+                                        href="#v-pills-edu" role="tab" aria-controls="v-pills-edu"
+                                        aria-selected="true">Education</a>
+                                    <a class="nav-link" id="v-pills-job-tab" data-toggle="pill" href="#v-pills-job"
+                                        role="tab" aria-controls="v-pills-job" aria-selected="false">Experience</a>
+                                </div>
+                            </div>
 
-                 <div class="single-progress-bar">
-                  <p>Bootstrap</p>
-                   <div class="barfiller progress-bar" id='bar3'>
-                     <div class="tipWrap wow fadeInLeft" data-wow-duration="2s" data-wow-delay=".6s">
-                        <span class="tip">90%</span>
-                     </div>
-                     <span class="fill wow fadeInLeft" data-wow-duration="2s" data-wow-delay=".6s" data-percentage="90"></span>
-                   </div>
-                 </div>
+                            <div class="col-sm-9">
+                                <div class="tab-content" id="v-pills-tabContent">
+                                    <div class="tab-pane fade show active" id="v-pills-edu" role="tabpanel"
+                                        aria-labelledby="v-pills-edu-tab">
+                                        <div class="single-resume-item">
+                                            <div class="year">
+                                                <span>2014-2015</span>
+                                            </div>
+                                            <h3>Junior School Certificate</h3>
+                                            <p>I have completed my Junior School Certificate examination from Bagdhani
+                                                High School. I got a GPA of 4.89 out of 5.</p>
+                                        </div>
+                                        <div class="single-resume-item">
+                                            <div class="year">
+                                                <span>2015-2017</span>
+                                            </div>
+                                            <h3>Secondary School Certificate</h3>
+                                            <p>I have completed my Secondary School Certificate examination from
+                                                Bagdhani High School. I got a GPA of 4.45 out of 5.</p>
+                                        </div>
+                                        <div class="single-resume-item">
+                                            <div class="year">
+                                                <span>2017-2022</span>
+                                            </div>
+                                            <h3>Diploma in Computer Engineering</h3>
+                                            <p>I have completed my Diploma in Computer Engineering course from Rajshahi
+                                                Polytechnic Institute. I got a CGPA of 3.45 out of 4.</p>
+                                        </div>
+                                    </div>
 
-                 <div class="single-progress-bar">
-                    <p>WordPress</p>
-                     <div class="barfiller progress-bar" id='bar4'>
-                       <div class="tipWrap wow fadeInLeft" data-wow-duration="2s" data-wow-delay=".6s">
-                          <span class="tip">90%</span>
-                       </div>
-                       <span class="fill wow fadeInLeft" data-wow-duration="2s" data-wow-delay=".6s" data-percentage="90"></span>
-                     </div>
-                   </div>
+                                    <div class="tab-pane fade" id="v-pills-job" role="tabpanel"
+                                        aria-labelledby="v-pills-job-tab">
+                                        <div class="single-resume-item">
+                                            <div class="year">
+                                                <span>2022-present</span>
+                                            </div>
+                                            <h3>Web Developer Internship</h3>
+                                            <p>I have completed in Web Developer Internship at BdTask Limited.
+                                            <p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
 
-                   <div class="single-progress-bar">
-                    <p>PHP</p>
-                     <div class="barfiller progress-bar" id='bar5'>
-                       <div class="tipWrap wow fadeInLeft" data-wow-duration="2s" data-wow-delay=".6s">
-                          <span class="tip">90%</span>
-                       </div>
-                       <span class="fill wow fadeInLeft" data-wow-duration="2s" data-wow-delay=".6s" data-percentage="90"></span>
-                     </div>
-                   </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-12">
+                    <div class="programming-skill mt-5">
+                        <h3>Coding Skills</h3>
 
-                 <div class="single-progress-bar">
-                  <p>Laravel</p>
-                   <div class="barfiller progress-bar" id='bar6'>
-                     <div class="tipWrap wow fadeInLeft" data-wow-duration="2s" data-wow-delay=".8s">
-                        <span class="tip">60%</span>
-                     </div>
-                     <span class="fill wow fadeInLeft" data-wow-duration="2s" data-wow-delay=".8s" data-percentage="60"></span>
-                   </div>
-                 </div>
-              </div>
-           </div>
+                        <div class="single-progress-bar">
+                            <p>HTML & CSS</p>
+                            <div class="progress-bar barfiller" id='bar1'>
+                                <div class="tipWrap wow fadeInLeft" data-wow-duration="2s" data-wow-delay=".2s">
+                                    <span class="tip">90%</span>
+                                </div>
+                                <span class="fill wow fadeInLeft" data-wow-duration="2s" data-wow-delay=".2s"
+                                    data-percentage="90"></span>
+                            </div>
+                        </div>
+
+                        <div class="single-progress-bar">
+                            <p>JavaScript & Jquery</p>
+                            <div class="barfiller progress-bar" id='bar2'>
+                                <div class="tipWrap wow fadeInLeft" data-wow-duration="2s" data-wow-delay=".4s">
+                                    <span class="tip">70%</span>
+                                </div>
+                                <span class="fill wow fadeInLeft" data-wow-duration="2s" data-wow-delay=".4s"
+                                    data-percentage="70"></span>
+                            </div>
+                        </div>
+
+                        <div class="single-progress-bar">
+                            <p>Bootstrap</p>
+                            <div class="barfiller progress-bar" id='bar3'>
+                                <div class="tipWrap wow fadeInLeft" data-wow-duration="2s" data-wow-delay=".6s">
+                                    <span class="tip">90%</span>
+                                </div>
+                                <span class="fill wow fadeInLeft" data-wow-duration="2s" data-wow-delay=".6s"
+                                    data-percentage="90"></span>
+                            </div>
+                        </div>
+
+                        <div class="single-progress-bar">
+                            <p>WordPress</p>
+                            <div class="barfiller progress-bar" id='bar4'>
+                                <div class="tipWrap wow fadeInLeft" data-wow-duration="2s" data-wow-delay=".6s">
+                                    <span class="tip">90%</span>
+                                </div>
+                                <span class="fill wow fadeInLeft" data-wow-duration="2s" data-wow-delay=".6s"
+                                    data-percentage="90"></span>
+                            </div>
+                        </div>
+
+                        <div class="single-progress-bar">
+                            <p>PHP</p>
+                            <div class="barfiller progress-bar" id='bar5'>
+                                <div class="tipWrap wow fadeInLeft" data-wow-duration="2s" data-wow-delay=".6s">
+                                    <span class="tip">90%</span>
+                                </div>
+                                <span class="fill wow fadeInLeft" data-wow-duration="2s" data-wow-delay=".6s"
+                                    data-percentage="90"></span>
+                            </div>
+                        </div>
+
+                        <div class="single-progress-bar">
+                            <p>Laravel</p>
+                            <div class="barfiller progress-bar" id='bar6'>
+                                <div class="tipWrap wow fadeInLeft" data-wow-duration="2s" data-wow-delay=".8s">
+                                    <span class="tip">60%</span>
+                                </div>
+                                <span class="fill wow fadeInLeft" data-wow-duration="2s" data-wow-delay=".8s"
+                                    data-percentage="60"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-   </section>
+    </section>
 
-   <!-- profolio section -->
+    <!-- profolio section -->
     <section class="portfolio-showcase section-padding pt-0" id="portfolio">
-       <div class="container">
-         <div class="row">
-            <div class="col-12 text-center col-lg-10 offset-lg-1">
-                <div class="section-title-one">
-                    <span>My portfolio</span>
-                    <h2>I’m Graphic & Web Design , Developer and Check my Recent Work I’ll Provide my Clients.</h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center col-lg-10 offset-lg-1">
+                    <div class="section-title-one">
+                        <span>My portfolio</span>
+                        <h2>I’m Graphic & Web Design , Developer and Check my Recent Work I’ll Provide my Clients.</h2>
+                    </div>
                 </div>
             </div>
-         </div>
 
-         <div class="row">
-            <div class="col-md-12 text-center">
-                <div class="portfolio-filter mt-4 mt-sm-5">
-                    <button data-filter="*" class="active">All</button>
-                    <button data-filter=".wordpress">WordPress</button>
-                    <button data-filter=".website">Web Design</button>
-                    <button data-filter=".development">Web Development</button>
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <div class="portfolio-filter mt-4 mt-sm-5">
+                        <button data-filter="*" class="active">All</button>
+                        <button data-filter=".wordpress">WordPress</button>
+                        <button data-filter=".website">Web Design</button>
+                        <button data-filter=".development">Web Development</button>
+                    </div>
+                </div>
+            </div>
+            <div class="row grid p-0">
+                <div class="col-lg-4 col-md-6 col-12 grid-item development website">
+                    <div class="single-portfolio-item">
+                        <a href="assets/img/portfolio/1.jpg" class="popup-gallery">
+                            <img class="img-fluid" src="assets/img/portfolio/1.jpg" alt="">
+                            <span class="zoom-icon">+</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12 grid-item wordpress website">
+                    <div class="single-portfolio-item">
+                        <a href="assets/img/portfolio/2.jpg" class="popup-gallery">
+                            <img class="img-fluid" src="assets/img/portfolio/2.jpg" alt="">
+                            <span class="zoom-icon">+</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12 grid-item wordpress">
+                    <div class="single-portfolio-item">
+                        <a href="assets/img/portfolio/3.png" class="popup-gallery">
+                            <img class="img-fluid" src="assets/img/portfolio/3.png" alt="">
+                            <span class="zoom-icon">+</span>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="row grid p-0">
-            <div class="col-lg-4 col-md-6 col-12 grid-item development website">
-                <div class="single-portfolio-item">
-                    <a href="assets/img/portfolio/1.jpg" class="popup-gallery">
-                        <img class="img-fluid" src="assets/img/portfolio/1.jpg" alt="">
-                        <span class="zoom-icon">+</span>
-                    </a>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-12 grid-item wordpress website">
-                <div class="single-portfolio-item">
-                    <a href="assets/img/portfolio/2.jpg" class="popup-gallery">
-                        <img class="img-fluid" src="assets/img/portfolio/2.jpg" alt="">
-                        <span class="zoom-icon">+</span>
-                    </a>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-12 grid-item wordpress">
-                <div class="single-portfolio-item">
-                    <a href="assets/img/portfolio/3.png" class="popup-gallery">
-                        <img class="img-fluid" src="assets/img/portfolio/3.png" alt="">
-                        <span class="zoom-icon">+</span>
-                    </a>
-                </div>
-            </div>
-         </div>
-       </div>
     </section>
 
     <!-- testimonial section -->
-    <section id="testimonial" class="testimonial-section section-padding theme-bg-gray" style="background-image: url('assets/img/testimonial_bg.png');">
+    <section id="testimonial" class="testimonial-section section-padding theme-bg-gray"
+        style="background-image: url('assets/img/testimonial_bg.png');">
         <div class="container">
             <div class="row py-4">
                 <div class="col-12 text-center col-lg-10 offset-lg-1">
@@ -481,7 +509,7 @@
                 <div class="col-12">
                     <div class="testimonial-carousel-active text-center owl-carousel owl-theme">
                         <div class="single-testimonial-box">
-                           <div class="client-img" style="background-image: url('assets/img/client.png');"></div>
+                            <div class="client-img" style="background-image: url('assets/img/client.png');"></div>
                             <div class="client-info">
                                 <h3>Rachel Dowson</h3>
                                 <span>Creative Arts</span>
@@ -490,20 +518,20 @@
                         </div>
                         <div class="single-testimonial-box">
                             <div class="client-img" style="background-image: url('assets/img/client.png');"></div>
-                             <div class="client-info">
-                                 <h3>Salman Ahmed</h3>
-                                 <span>React Developer</span>
-                             </div>
-                             <p>Maborisum ipsum dolor seat ameat consecteturerslmore be elite consec.</p>
-                         </div>
-                         <div class="single-testimonial-box">
+                            <div class="client-info">
+                                <h3>Salman Ahmed</h3>
+                                <span>React Developer</span>
+                            </div>
+                            <p>Maborisum ipsum dolor seat ameat consecteturerslmore be elite consec.</p>
+                        </div>
+                        <div class="single-testimonial-box">
                             <div class="client-img" style="background-image: url('assets/img/client.png');"></div>
-                             <div class="client-info">
-                                 <h3>Isabella Dowson</h3>
-                                 <span>CEO of WPLand</span>
-                             </div>
-                             <p>Maborisum ipsum dolor seat ameat consecteturerslmore be elite consec.</p>
-                         </div>
+                            <div class="client-info">
+                                <h3>Isabella Dowson</h3>
+                                <span>CEO of WPLand</span>
+                            </div>
+                            <p>Maborisum ipsum dolor seat ameat consecteturerslmore be elite consec.</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -511,7 +539,8 @@
     </section>
 
     <!-- contact section -->
-    <section id="contact" class="contact-section section-padding theme-bg-gray" style="background-image: url('assets/img/testimonial_bg.png');">
+    <section id="contact" class="contact-section section-padding theme-bg-gray"
+        style="background-image: url('assets/img/testimonial_bg.png');">
         <div class="container">
             <div class="row">
                 <div class="col-12 text-center col-lg-10 offset-lg-1">
@@ -580,26 +609,26 @@
 
     <!--  ALl JS Plugins
     ====================================== -->
-    <script src="assets/js/jquery-1.12.4.min.js"></script>
-    <script src="assets/js/modernizr-3.7.1.min.js"></script>
-    <script src="assets/js/jquery.easing.1.3.js"></script>
-    <script src="assets/js/popper.min.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/js/isotope.pkgd.min.js"></script>
-    <script src="assets/js/imageload.min.js"></script>
-    <script src="assets/js/scrollUp.min.js"></script>
-    <script src="assets/js/owl.carousel.min.js"></script>
-    <script src="assets/js/magnific-popup.min.js"></script>
-    <script src="assets/js/waypoint.js"></script>
-    <script src="assets/js/counterup.min.js"></script>
-    <script src="assets/js/typed.min.js"></script>
-    <script src="assets/js/metismenu.js"></script>
-    <script src="assets/js/wow.min.js"></script>
-    <script src="assets/js/progresscircle.js"></script>
-    <script src="assets/js/barfiller.js"></script>
-    <script src="assets/js/ajax-mail.js"></script>
+    <script src="{{ asset('assets/js/modernizr-3.7.1.min.js') }}"></script>
+    <script src="{{ asset('assets/js/jquery.easing.1.3.js') }}"></script>
+    <script src="{{ asset('assets/js/popper.min.js') }}"></script>
+    <script src="{{ asset('assets/js/jquery-1.12.4.min.js') }}"></script>
+    <script src="{{ asset('assets/js/bootstrap.min.js') }}"></script>
+    <script src="{{ asset('assets/js/isotope.pkgd.min.js') }}"></script>
+    <script src="{{ asset('assets/js/imageload.min.js') }}"></script>
+    <script src="{{ asset('assets/js/scrollUp.min.js') }}"></script>
+    <script src="{{ asset('assets/js/owl.carousel.min.js') }}"></script>
+    <script src="{{ asset('assets/js/magnific-popup.min.js') }}"></script>
+    <script src="{{ asset('assets/js/waypoint.js') }}"></script>
+    <script src="{{ asset('assets/js/counterup.min.js') }}"></script>
+    <script src="{{ asset('assets/js/typed.min.js') }}"></script>
+    <script src="{{ asset('assets/js/metismenu.js') }}"></script>
+    <script src="{{ asset('assets/js/wow.min.js') }}"></script>
+    <script src="{{ asset('assets/js/progresscircle.js') }}"></script>
+    <script src="{{ asset('assets/js/barfiller.js') }}"></script>
+    <script src="{{ asset('assets/js/ajax-mail.js') }}"></script>
     <script>
-    let typed = new Typed('.profession', {
+        let typed = new Typed('.profession', {
         strings: ["Freelancer", "Web Developer", "Web Designer"],
         typeSpeed: 80,
         loop: true,
@@ -607,7 +636,7 @@
         backSpeed: 50,
     });
     </script>
-    <script src="assets/js/active.js"></script>
+    <script src="{{ asset('assets/js/active.js') }}"></script>
 </body>
 
 </html>
